@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MenuController">
+    <children>
+        <Text layoutX="47.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1.Burger" />
+        <Text layoutX="50.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2.Pizza" />
+        <Text layoutX="253.0" layoutY="263.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10.Fries" />
+        <Text layoutX="251.0" layoutY="317.0" strokeType="OUTSIDE" strokeWidth="0.0" text="11.Coffee" />
+        <Text layoutX="436.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="12.Plain Nun" />
+        <Text layoutX="50.0" layoutY="191.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3.Sprite" />
+        <Text layoutX="51.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4.Coke" />
+        <Text layoutX="50.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5.Fanta" />
+        <Text layoutX="237.0" layoutY="211.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9.Chicken Fry" />
+        <Text layoutX="247.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="8.Shawrma" />
+        <Text layoutX="236.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7.Oninon Rings" />
+        <Text layoutX="434.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="13.Chawmin" />
+        <Text layoutX="254.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6.Grill" />
+        <Text layoutX="433.0" layoutY="191.0" strokeType="OUTSIDE" strokeWidth="0.0" text="14.Fried Rice" />
+        <Text layoutX="428.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15.Mutton Leg" />
+        <Text layoutX="442.0" layoutY="295.0" strokeType="OUTSIDE" strokeWidth="0.0" text="16.Pharata" />
+        <Text layoutX="222.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Menu" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="36.0" />
+            </font>
+        </Text>
+        <Button layoutX="24.0" layoutY="12.0" mnemonicParsing="false" onAction="#back" text="Back" />
+    </children>
+</AnchorPane>
