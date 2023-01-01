@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AdminDashBoardController">
+   <children>
+   
+       
+      <Label fx:id="label" layoutX="19.0" layoutY="183.0" prefHeight="190.0" prefWidth="565.0" text="User List" />
+      <Button fx:id="showbtn" layoutX="131.0" layoutY="79.0" mnemonicParsing="false" onAction="#showbtn" prefHeight="84.0" prefWidth="363.0" text="Show User List" />
+   </children>
+</AnchorPane>
