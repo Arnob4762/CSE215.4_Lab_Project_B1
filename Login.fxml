@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="339.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginController">
+    <children>
+        <Label fx:id="labelstatus" layoutX="123.0" layoutY="41.0" prefHeight="35.0" prefWidth="354.0" text="Food ordering management system" textFill="#2a8074">
+            <font>
+                <Font name="System Bold Italic" size="20.0" />
+            </font>
+        </Label>
+        <Button fx:id="loginbutton" layoutX="233.0" layoutY="210.0" mnemonicParsing="false" onAction="#handleloginbuttonAction" prefHeight="35.0" prefWidth="118.0" text="Log in">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <TextField fx:id="txtusername" layoutX="196.0" layoutY="104.0" prefHeight="35.0" prefWidth="192.0" promptText="username" />
+        <PasswordField fx:id="txtpassword" layoutX="196.0" layoutY="159.0" prefHeight="35.0" prefWidth="192.0" promptText="password" />
+        <Label layoutX="59.0" layoutY="159.0" prefHeight="35.0" prefWidth="87.0" text="Password">
+            <font>
+                <Font name="System Italic" size="17.0" />
+            </font>
+        </Label>
+        <Label layoutX="59.0" layoutY="104.0" prefHeight="35.0" prefWidth="87.0" text="Username">
+            <font>
+                <Font name="System Italic" size="17.0" />
+            </font>
+        </Label>
+        <Button fx:id="buttonsignup" layoutX="186.0" layoutY="261.0" mnemonicParsing="false" onAction="#handlesignupbuttonAction" prefHeight="35.0" prefWidth="213.0" text="Sign up!">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <Button fx:id="BackButton" layoutY="2.0" mnemonicParsing="false" onAction="#Back" text="Back" textFill="#b95555">
+            <font>
+                <Font name="System Italic" size="12.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>
+
